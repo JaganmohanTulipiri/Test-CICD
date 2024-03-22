@@ -1,0 +1,215 @@
+.services-progress-heading {
+    font-size: 2vmin;
+    font-weight: bold;
+}
+.ServiceProgressContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F9FC;
+    border-top-left-radius: 3vmax;
+    border-top-right-radius: 3vmax;
+    height: 100vh;
+    padding-top: 50px;
+}
+.TitleText {
+    font-size: 2vmin;
+    font-weight: bold;
+    background-color: #e5f2f8;
+    width: 100%;
+    padding: 15px;
+}
+.ServiceTitle{
+    font-size: 2vmin;
+    align-self: flex-start;
+}
+.InnerContainer{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-left: 5%;
+    background-color: #F1F5F3;
+    border-radius: 10px;
+    padding-right: 5%;
+    margin-top: 35px;
+    padding-top: 2%;
+}
+.DeliveryDetailsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.NameDetailsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 45%;
+}
+.DelManImg{
+    max-width: 15%;
+    min-width: 8%;
+    background-color: #ffffff;
+    border-radius: 35px;
+    padding: 5px;
+}
+.DelName{
+    font-size: 1.8vmin;
+}
+.DetailsContainer{
+    display: flex;
+}
+.TimeDateContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: center;
+}
+.DateIcon{
+    width: 3%;
+}
+.DateValue{
+    font-size: 1.7vmin;
+    margin: 0px;
+}
+.TimerIcon{
+    width: 12%;
+}
+.ExeDetailsContainer{
+    width: 60%;
+    text-align: start;
+    margin-left: 10px;
+}
+.imgContainer{
+    display: flex;
+    flex-direction: column;
+}
+.DetailsNameImgContainer{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.DeliveryStatusContainer{
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-top: 20px;
+}
+.tickCss{
+    width: 2.5%;
+    margin-left: 20px;
+    margin-right: 17px;
+}
+.deliveryUpdate{
+    font-size: 1.7vmin;
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+.TotalDetailsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.textAndDotContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    height: fit-content;
+    border-radius: 40px;
+    padding: 2px;
+    justify-content: flex-start;
+}
+.BlueFillCss{
+    width: 19%;
+}
+.ReqText{
+    font-size: 1.7vmin;
+    margin-bottom: 0px;
+    color: #06237d;
+    margin-left: 3px;
+    font-weight: bold;
+}
+.serviceStatusContainer{
+    width: 95%;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.reqSubmittedCont{
+    width: 20%;
+    text-align: left;
+}
+.dateStatus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.StatText{
+    font-size: 1.7vmin;
+}
+.dateSize{
+    font-size: 1.8vmin;
+}
+.dateAlign{
+    text-align: right;
+}
+.imgLineCont{
+    display: flex;
+    flex-direction: row;
+    width: 26%;
+}
+.progressLine{
+    width: 100%;
+    border: 2px solid #FFFFFF;
+    border-color: #ffffff;
+    opacity: inherit;
+}
+.progressContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 89%;
+    align-self: flex-end;
+    margin-top: 35px;
+}
+.greenTick{
+    width: 9%;
+}
+.timerCss{
+    width: 4%;
+}
+.payStatContainer{
+    width: 24%;
+    border: 2px dashed grey;
+    padding: 8px;
+    margin-top: 35px;
+}
+.payContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.Paytext{
+    font-size: 1.7vmin;
+    text-align: left;
+   
+}
+.PayStatus{
+font-size: 2vmin;
+margin-bottom: 0px;
+color: #2ac137;
+}
+.RupeeCss{
+font-size: 1.7vmin;
+margin-bottom: 0px;
+
+}
+.notificationCont{
+    background-color: #FFFFFF;
+    width: 301%;
+    padding-top: 20px;
+}

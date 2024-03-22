@@ -1,0 +1,487 @@
+/* input, select :focus{
+  outline: none;
+} */
+
+.svg-img:hover {
+  fill: white;
+}
+
+.login-background-image {
+  background-image: url("../src/assets/images/loginbackgroundimage.png");
+  background-repeat: no-repeat;
+}
+
+.black-color {
+  background-color: rgb(47, 54, 47, 0.4);
+}
+
+/* .container-one {
+  width: 100vw;
+  max-width: 1848px;
+  height: 100vh;
+  max-height: 980px;
+  margin-inline: auto;
+  background-color: #f2f8ffc7;
+} */
+
+/* .container-two {
+  width: 82vw;
+  max-width: 1440px;
+  height: 50vh;
+  margin-inline: auto;
+  background-color: white;
+} */
+
+.chakra-modal__content-container {
+  display: flex;
+  justify-content: flex-start;
+
+  padding-inline: 2rem;
+  border: 1px solid blue;
+}
+
+/* .move{
+      position: relative;
+      animation-name: example;
+      animation-duration: 4s;
+     
+    }
+    
+    @keyframes example {
+      0%   { left:0px; }
+      25%  { left:11px;}
+     }
+  
+     /*District look up table changes*/
+
+Table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+Td,
+Th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 20px;
+  width: 400px;
+  border: #dddddd;
+}
+
+Tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+*/ .move {
+  background-color: red;
+  display: inline-block;
+  /* transform: translateX(-100%); */
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0% {
+    transform: translateX(10%);
+  }
+
+  25% {
+    transform: translateX(1vw);
+  }
+
+  75% {
+    transform: translateX(5vw);
+  }
+
+  100% {
+    transform: translateX(1vw);
+  }
+}
+
+.image-container {
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  /* transition: filter 0.5s ease; */
+}
+
+.hoveringicon svg {
+  stroke: red;
+  fill: yellow;
+}
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.table-row:nth-child(even) {
+  background-color: #f5f9ff;
+}
+
+.table-row-checkbox {
+  border: 1px solid red;
+  text-align: left;
+  width: 5%;
+}
+
+.table-row,
+th,
+td {
+  text-align: center;
+}
+
+.table-row-report-name {
+  width: 15%;
+}
+
+.model {
+  padding-inline-end: 0px !important;
+  padding-inline-start: 0px !important;
+}
+
+.triangle {
+  /* border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 25px solid black;
+    border-bottom: 0px solid white;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px; */
+  background-color: white;
+  clip-path: polygon(100% 0%, 50% 100%, -10% 30%);
+  /* padding-left: 2%;
+    padding-right: 12%; */
+}
+
+.triangle-down {
+  border-left: 12px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid #555;
+  margin: 3px;
+}
+
+.modal-popup-border-light {
+  border: 1px;
+  border-color: transparent !important;
+}
+
+*:focus {
+  box-shadow: none !important;
+}
+
+.chakra-modal__content-container {
+  border: 0px transparent !important;
+  outline: none;
+}
+
+.SuperAdminTables Tr:nth-child(even) {
+  background-color: #f5f9ff;
+}
+
+/*Test result skelton css*/
+
+.table-rows {
+  display: flex;
+
+  gap: 1rem;
+}
+
+.tab-item {
+  border: 1px solid red;
+  cursor: pointer;
+  width: 5rem;
+  transition: flex 0.6s;
+}
+
+.tab-item-active {
+  width: 30rem;
+  border: 1px solid green;
+  flex: 0.5;
+}
+
+/*Dynamic width table*/
+
+.table {
+  border-collapse: collapse;
+}
+.table,
+.table th,
+.table td {
+  border: 1px solid #ccc;
+}
+.table th,
+.table td {
+  padding: 0.5rem;
+}
+.table th {
+  position: relative;
+}
+/* .resizer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 5px;
+  cursor: col-resize;
+  user-select: none;
+}
+.resizer:hover,
+.resizing {
+  border-right: 2px solid blue;
+}
+
+.resizable {
+  border: 1px solid gray;
+  height: 100px;
+  width: 100px;
+  position: relative;
+} */
+
+/*Admin table*/
+.vl {
+  border-right: 1px solid #f3ebeb;
+
+  height: 300vh;
+}
+
+.table-1 {
+  border-collapse: collapse;
+
+  table-layout:fixed;
+ 
+ 
+
+}
+.table-1,
+.table-1 th,
+.table-1 td {
+  border: 1px solid #ccc;
+  min-width: auto;
+  width: auto;
+}
+.table-1 th,
+.table-1 td {
+  padding: 0.5rem;
+}
+.table-1 th {
+  position: relative;
+}
+
+.table-1 td input:invalid{
+  border: 1px solid red;
+}
+.resizer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 5px;
+  cursor: col-resize;
+  user-select: none;
+}
+.resizer:hover,
+.resizing {
+  border-right: 2px solid gray;
+}
+
+.resizable {
+  border: 1px solid gray;
+  height: 5px;
+  width: 10px;
+  position: relative;
+}
+
+/* multiselect option */
+/* .optionContainer li:hover,
+.optionContainer .highlight {
+  background: red;
+  color: #fff;
+} */
+
+
+
+.pagination{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap:10px;
+  color:#0081C8;
+  
+}
+
+
+.pagination .page-num {
+  padding: 5px 10px;
+  cursor: pointer;
+  /* border-width: 2px; */
+  border-radius: 3px;
+  font-weight: 400;
+  color:#0081C8;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+  
+  .pagination{
+
+    justify-content: flex-start;
+    align-items: center;
+
+  
+    gap:0px;
+    
+  }
+
+
+  .pagination .page-num {
+
+
+    padding: 0px 6px !important;
+    
+   
+  
+  }
+  
+
+
+}
+
+
+
+
+
+
+.pagination .page-num:hover{
+  background-color: #0081C8;
+  color: white;
+  text-decoration: none;
+}
+
+.pagination .active{
+  background-color:#0081C8;
+  color: white;
+  text-decoration: none;
+}
+
+.chakra-modal__content-container 
+{
+  padding-inline: 0rem;
+}
+
+.css-jfo9gg{
+
+  padding: -1px;
+}
+
+
+
+
+
+@media screen and (min-width:769px) and (max-width:1024px){
+
+
+  .bar1-width{
+
+    width: 200px;
+  
+  
+  }
+  
+  .bar2-width{
+  
+    width: 200px;
+ 
+  }
+  
+  .bar3-width{
+  
+    width: 600px;
+ 
+  
+  }
+
+
+}
+
+
+@media screen and (min-width:1025px) and (max-width:1200px){
+
+  .bar1-width{
+
+    width: 200px;
+
+  
+  }
+  
+  .bar2-width{
+  
+    width: 200px;
+
+  }
+  
+  .bar3-width{
+  
+    width: 450px;
+
+  
+  }
+
+
+
+
+}
+
+
+@media screen and (min-width:1201px) and (max-width:1440px){
+
+
+
+  .bar1-width{
+
+    width: 300px;
+ 
+  
+  }
+  
+  .bar2-width{
+  
+    width: 300px;
+
+  }
+  
+  .bar3-width{
+  
+    width: 1000px;
+
+  
+  }
+
+}
+
+
+
+
+
+.outlet-transition-open {
+  width: 80%;
+  transition: width 1s ease;
+}
+
+.outlet-transition-close {
+  width: 100%;
+  transition: width 1s ease;
+}

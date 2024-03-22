@@ -1,0 +1,75 @@
+DOBInputField{
+    width: 20px;
+    border-width: 1px;
+    outline: none;
+    margin-right: 20px;
+    height: 45px;
+    /* width: 40px; */
+    border-radius: 5px;
+    text-align: center;
+}
+.verifyOtpFOrm{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 40%;
+    align-self: center;
+    border-radius: 25px;
+    margin-top: 30px;
+    padding: 100px;
+  }
+  .formandImgContainer{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+}
+.OtpFormContainer{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 60%;
+
+}
+.ContentContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+  width: fit-content;
+  align-self: center;
+  padding-top: 50px;
+  border-radius: 25px;
+  margin-top: 30px;
+  margin: 10px;
+  
+}
+.resendText{
+  margin: 10px;
+}
+.OtpinputEl{
+  height: 30px;
+}
+.verifyOtpContentContainer{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.SetPinButton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.PinText{
+    align-self: flex-start;
+    font-size: 10px;
+    text-align: left;
+}
+.PinLabel{
+    font-size: 9px;
+    align-self: flex-start;
+
+}
+.mainLogo{
+    margin-top: 10px;
+}

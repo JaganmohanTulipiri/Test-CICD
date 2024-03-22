@@ -1,0 +1,75 @@
+.inputsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leftContainerInputs{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.rightContainerInputs{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.radioContainer{
+    display: flex;
+    align-self: center;
+    margin: 30px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    
+}
+.radioButtonCss{
+    margin-left: 30px;
+}
+.formandImgContainer{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+}
+.DetailsInputsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.DetailsFormContainer{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+background-color: #ffffff;
+width: -moz-fit-content;
+width: fit-content;
+align-self: center;
+padding-top: 50px;
+border-radius: 25px;
+margin: 10px;
+}
+.FormTitle {
+    font-size: 15px;
+    color: #06237D;
+    align-self: center;
+}
+.ProceedButton{
+    width: 40%;
+    align-self: center;
+}
+.BottomText{
+    margin-top: 16px;
+    font-size: 8px;
+    align-items: flex-end;
+}
+.Formlabelcss {
+    align-self: flex-start;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.formandLogoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}

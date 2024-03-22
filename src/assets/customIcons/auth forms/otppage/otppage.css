@@ -1,0 +1,64 @@
+.verifyOtpFOrm{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 40%;
+    align-self: center;
+    border-radius: 25px;
+    margin-top: 30px;
+    padding: 100px;
+  }
+  .formandImgContainer{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+}
+.otpFormContainer{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 100%;
+  padding-left: 62px;
+  padding-right: 64px;
+
+}
+.ContentContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+  width: fit-content;
+  align-self: center;
+  padding-top: 50px;
+  border-radius: 25px;
+  margin-top: 30px;
+  margin: 10px;
+  
+}
+.resendText{
+  margin: 10px;
+}
+.OtpinputEl{
+  height: 30px;
+}
+.verifyOtpContentContainer{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rightBgSvgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 70px;
+  width: 20%;
+}
+.leftBgSvgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 20%;
+}

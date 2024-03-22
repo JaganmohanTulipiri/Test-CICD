@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="26.333" viewBox="0 0 28 26.333">
+  <g id="Group_515" data-name="Group 515" transform="translate(-6 -7)">
+    <g id="school_black_24dp" transform="translate(6 7)">
+      <path id="Path_5087" data-name="Path 5087" d="M0,0H26V26H0Z" fill="none"/>
+      <g id="Group_3566" data-name="Group 3566" transform="translate(-2 -7)">
+        <g id="email_black_24dp" transform="translate(4 7)">
+          <path id="Path_5089" data-name="Path 5089" d="M0,0H26V26H0Z" fill="none"/>
+          <path id="notifications_black_24dp" d="M15.59,23.128a1.852,1.852,0,0,0,1.846-1.846H13.744A1.846,1.846,0,0,0,15.59,23.128Zm5.538-5.538V12.974c0-2.834-1.514-5.206-4.154-5.834V6.513a1.385,1.385,0,0,0-2.769,0v.628c-2.649.628-4.154,2.991-4.154,5.834V17.59L8.205,19.436v.923H22.974v-.923Z" transform="translate(-2.59 3.205)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
